@@ -1,0 +1,164 @@
+body
+{
+    background-color: black;
+    color:white;
+   
+}
+#input_label
+{
+    color:white;
+}
+
+#error_count
+{
+    color:red;
+    font-size: 15px;
+}
+
+#canvas
+{
+    border:5px solid white;
+    height:450px;
+    width:700px;
+}
+
+#res_dek
+{
+    float: right;
+    border:5px solid rgb(255, 255, 255);
+    padding:30px;
+    margin-right: 100px;
+    border-radius: 5px;
+    width:500px;
+}
+
+.label_res
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nodes
+{
+    background-color: green;
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    position:absolute;
+}
+
+.edges
+{
+    background-color: white;
+    height:3px;
+}
+
+table
+{
+    width:400px;
+    border: 1px solid white;
+    color:white;
+    border-collapse: collapse;
+    margin-bottom:20px;
+    margin-right:20%;
+}
+
+.td_input
+{
+    width:40px;
+    height:30px;
+    font-size:16px;
+}
+
+#enterMatrix
+{
+    color:white;
+    font-size: 14px;
+    background-color: green;
+    border-radius: 5px;
+    width:120px;
+    height:40px;
+}
+
+#log
+{
+    font-size: 18px;
+    color: deepskyblue;
+}
+
+#saveMatrix
+{
+    color:white;
+    font-size: 14px;
+    background-color: rgb(27, 71, 165);
+    border-radius: 5px;
+    width:120px;
+    height:40px;
+}
+
+#clearButton
+{
+    color:white;
+    font-size: 14px;
+    background-color: rgb(165, 27, 27);
+    border-radius: 5px;
+    width:120px;
+    height:40px; 
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul li
+{
+    display: inline;
+}
+
+#find_path
+{
+    background-color: darkgreen;
+    font-size: 14px;
+    width:120px;
+    height:40px;
+    border-radius: 5px;
+    color:white;
+}
+
+#inputMatrix
+{
+    color:white;
+    font-size: 14px;
+    background-color: rgb(165, 27, 131);
+    border-radius: 5px;
+    width:120px;
+    height:40px;
+}
+
+table th 
+{
+    font-weight: bold;
+    padding: 3px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+table td
+{
+    border: 1px solid #dddddd;
+    padding: 5px;
+    width:60px;
+    height:30px;
+}
+
+#div_table
+{
+    float:right;
+    margin-right: 30px;
+}
+
+h3
+{
+    color:white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Работа с графами</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="error_count"></span>
+        <h3>Поиск кратчайшего пути (алгоритм Дейкстры)</h3>
+        <label>Начальная вершина</label>
+        <input type="number" id="x0">
+        <label>Конечная вершина</label>
+        <input type="number" id="xn">
+        <button id="find_path">Найти</button>
+        <div id="res_dek">
+            <label>Сумма кратчайшего пути =</label><label class = "label_res" id="sum_path"> </label>
+            <br>
+            <label>Кратчайший путь по вершинам = </label><label class = "label_res" id="path_node"></label>
+        </div>
+        <br>
+        <ul>
+            <li><button id="enterMatrix">Обновить граф</button></li>
+            <li><button id="saveMatrix">Сохранить матрицу</button></li>
+            <li><input type="file" id="fileinput" multiple></li>
+            <li><button id="inputMatrix">Загрузить матрицу</button></li>
+            <li><button id="clearButton">Очистить</button></li>
+        </ul>
+        <br>
+        <hr>
+        <label>Отслеживание действий:  </label>
+        <span id="log"></span>
+    </header>
+    <br>
+    <hr>
+    <div id="div_table">
+    </div>
+    <div id="canvas">
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
